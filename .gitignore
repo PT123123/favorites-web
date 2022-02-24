@@ -10,3 +10,6 @@
 *.class
 .checkstyle
 /.idea
+.gradle/
+app/target/
+mysql_data/

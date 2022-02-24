@@ -29,7 +29,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/")
-public class IndexController extends BaseController{
+public class IndexController extends BaseController{ // Q-基类怎么找到定义的?
 	@Autowired
 	private FavoritesRepository favoritesRepository;
 	@Autowired

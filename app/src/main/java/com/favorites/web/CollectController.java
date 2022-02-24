@@ -59,7 +59,7 @@ public class CollectController extends BaseController{
 	/**
 	 * 随便看看  added by chenzhimin
 	 */
-	@Autowired
+	@Autowired //G-自动和某个@service绑定吧,这个autoWired是spring的东西
 	private LookAroundService lookAroundService;
 
 	/**
